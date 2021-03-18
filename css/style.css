@@ -1,0 +1,466 @@
+body{
+    font-family: 'lato', sans-serif;
+}
+
+.my-container{
+    background-image: url("../img/home-bg.jpg");
+    height: 800px;
+    background-position: center center;
+    background-size: cover;
+    border-top: 60px solid #000;
+}
+
+#my-navigation{
+    background:#202020;
+    border: none;
+    border-left: 10px solid #7b356c;
+    border-radius: 0px;
+    position: relative;
+    top: -27px;
+    z-index: 1;
+}
+#my-navigation .navbar-brand img{
+    width: 90%;
+    position: relative;
+    top: -20px;
+}
+
+#my-navigation .my-collapse ul li a{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+}
+
+#my-navigation .my-collapse ul li .active{
+    background-color: black;
+}
+
+#hamza{
+    color: #fff;
+    background-color: black;
+}
+
+/* banner */
+
+.banner h1{
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+/* three box */
+
+.three-box{
+    background-color: #000;
+    padding-bottom: 50px;
+}
+
+.my-row{
+    position: relative;
+    top: -35px;
+    margin-bottom: 50px;
+}
+
+.one{
+    padding: 50px 0px;
+    background-color: #c14000;
+    color: #fff;
+    width: 30%;
+}
+
+.one .fa{
+    font-size: 40px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.one h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.one p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0px 20px;
+}
+
+.two{
+    padding: 50px 0px;
+    background-color: #009988;
+    color: #fff;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.two .fa{
+    font-size: 40px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.two h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.two p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0px 20px;
+}
+
+.three{
+    padding: 50px 0px;
+    background-color: #ffa500;
+    color: #fff;
+    width: 30%;
+    
+}
+
+.three .fa{
+    font-size: 40px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.three h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.three p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0px 20px;
+}
+
+/* box-1 */
+.box-1{
+    background-color: #191919;
+    padding: 0px;
+    margin-bottom: 50px;
+    pad
+    
+}
+.box-1 img{
+    width: 100%;
+}
+
+.box-1 h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.box-1 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: gray;
+}
+
+.my-button{
+    background: none;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 40px;
+    border: 2px solid #fff;
+    border-radius: 0px;
+}
+
+/* project box */
+
+.Project{
+    padding: 30px 0px;
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.Project h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Project p{
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+/* image box */
+.image{
+    margin-top: 20px;
+}
+.image img{
+    width: 100%; 
+}
+
+.image .pad{
+    padding: 0px;
+}
+
+/* iamge 4 */
+
+.image-4 img{
+    width: 100%;
+}
+
+.image-4 .pad{
+    padding: 0px;
+    
+}
+
+.image-4{
+    margin-bottom: 20px;
+}
+
+.mybuttom{
+    background: none;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    border-radius: 0px;  
+}
+
+/* footer */
+.footer{
+    background-color: #191919;
+    padding: 50px 0px;
+}
+
+.footer .ft-1 p{
+    font-size: 15px;
+    font-weight: 100;
+    color: #4e5446;
+    line-height: 30px;
+}
+
+.footer .ft-1 .fa{
+    margin-right: 20px;
+}
+
+.footer .ft-2{
+    padding-left: 40px;
+}
+
+.footer .ft-2 h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer .ft-2 ul li{
+    list-style: none;
+    line-height: 35px;
+}
+
+.footer .ft-2 ul{
+    padding-left: 0px;
+}
+
+.footer .ft-2 ul li a{
+    color: #4e5446;
+}
+
+.footer .ft-3 h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer .ft-3 p{
+    font-size: 15px;
+    font-weight: 100;
+    color: #4e5446;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.footer .ft-3 input{
+    border: 2px solid #fff;
+    margin-bottom: 30px;
+    border-radius: 0px;
+    background: none;
+    font-size: 18px;
+}
+
+.footer .ft-3 .my-button{
+    width: 100px;
+    height: 40px;
+    margin-top: 0px;
+}
+
+/* footer icon */
+
+.footer-icon{
+    padding: 20px 0px;
+    background-color: #000;
+    color: gray;
+}
+
+.footer-icon p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.icon-1 .right{
+    text-align: right;
+}
+
+.footer-icon .fa{
+    margin-right: 5px;
+    font-size: 25px;
+    border: 1px solid #191919;
+    padding: 10px;
+    background-color: #191919;
+    
+}
+
+@media (max-width:768px){
+    .banner h1{
+        font-size: 40px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .three-box .one .fa, .two .fa, .three .fa{
+        font-size: 30px;
+    }
+    .three-box .one h2, .two h2, .three h2{
+        font-size: 25px;
+    }
+
+    .three-box .one p, .two p, .three p{
+        font-size: 13px;
+    }
+
+    .box-1{
+        padding-bottom: 30px;
+    }
+    .box-1 img{
+        margin-top: 30px;
+    }
+
+    .box-1 h2{
+        font-size: 35px;
+    }
+
+    .box-1 p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .my-button, .mybuttom{
+        width: 120px;
+        height: 40px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .Project h2{
+        font-size: 35px;
+    }
+
+    .Project p{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:767px){
+    .one, .two, .three {
+        width: 100%;
+        
+    }
+
+    .two {
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+@media (max-width:425px){
+    .banner h1{
+        font-size: 30px;
+        position: absolute;
+        left: 30%;
+    }
+
+    .one, .two, .three {
+        width: 100%;
+        
+    }
+
+    .two {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .my-row{
+        position: relative;
+        top: 0px;
+    }
+
+    .footer .ft-2{
+        padding-left: 15px;
+    }
+
+    .icon-1 .right{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .icon-1 p{
+        text-align: center;
+    }
+}
+
+@media (max-width:375px){
+    .banner h1{
+        font-size: 25px;
+        position: absolute;
+        left: 25%;
+    }
+
+    .Project{
+        width: 100%;
+    }
+    .Project h2{
+        font-size: 25px;
+    }
+    .Project p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .box-1 h2{
+        font-size: 25px;
+    }
+
+    .box-1 p{
+        font-size: 13px;
+    }
+}
